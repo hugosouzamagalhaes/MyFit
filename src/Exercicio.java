@@ -14,6 +14,7 @@ public class Exercicio {
         this.reps = reps;
         this.carga = carga;
     }
+
     public String getNome(){
         return nome;
     }
