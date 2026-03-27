@@ -20,8 +20,12 @@ public class Main {
         System.out.println("\nTreino finalizado com sucesso!");
 
         meuTreino.exibirFicha();
+        meuTreino.salvarEmArquivo();
+
 
         scanner.close();
+
+
     }
 
     public static Treino criarTreino(Scanner scanner) {
